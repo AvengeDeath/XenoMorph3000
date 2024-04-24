@@ -12,7 +12,7 @@ local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Admin Hub")
 
 Section:NewButton("Infinity Yield", "Speed , fly , jump etc", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvengeDeath/XenoMorph3000/main/infiniteyield.lua'))()
     print("Clicked")
 end)
 
