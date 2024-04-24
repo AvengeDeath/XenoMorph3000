@@ -1,4 +1,4 @@
-local  Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local  Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AvengeDeath/XenoMorph3000/main/Library.lua"))()
 local Window = Library.CreateLib("XenoMorph3000 Admin Hub - AvengeDeath", "DarkTheme")
 
 local Tab = Window:NewTab("Credits")
