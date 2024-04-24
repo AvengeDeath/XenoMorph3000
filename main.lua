@@ -17,7 +17,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/AvengeDeath/XenoMorph
 end)
 
 Section:NewButton("Aimbot", "Locks Aim to Players (best for 1v1)", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AvengeDeath/XenoMorph3000/main/Aimbot.lua"))()
     print("Clicked")
 end)
 
