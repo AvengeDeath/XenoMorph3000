@@ -16,13 +16,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/AvengeDeath/XenoMorph
     print("Clicked")
 end)
 
-Section:NewButton("Aimbot", "Locks Aim to Players (best for 1v1)", function()
+Section:NewButton("Aimbot", "Locks Aim to Players (best for pvp)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AvengeDeath/XenoMorph3000/main/Aimbot.lua"))()
     print("Clicked")
 end)
 
-Section:NewButton("Killer Hub (Updated)", "Keyless , Speed , Rank", function()
-loadstring(game:HttpGet("https://pastefy.app/74w2zF6p/raw",true))();
+Section:NewButton("Remote Spy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua",true))();
     print("Clicked")
 end)
 
